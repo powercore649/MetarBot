@@ -1,0 +1,30 @@
+{
+  "name": "flightutilities-bot",
+  "version": "1.0.0",
+  "description": "🛫 FlightUtilities — Bot Discord d'outils aviation pour la simulation (METAR, TAF, aéroports, VATSIM/IVAO). Simulation uniquement.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "aviation",
+    "flightsim",
+    "vatsim",
+    "ivao",
+    "metar",
+    "msfs",
+    "xplane"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
